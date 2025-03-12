@@ -9267,7 +9267,7 @@
 			)
 		)
 	)
-	(global_label "USB_DP"
+	(global_label "USB_D-"
 		(shape input)
 		(at 49.53 166.878 0)
 		(fields_autoplaced yes)
@@ -9279,7 +9279,7 @@
 		)
 		(uuid "7f796e18-6395-4f85-ba51-d7d20467559e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8328 166.878 0)
+			(at 60.1352 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9424,7 +9424,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM"
+	(global_label "USB_D+"
 		(shape input)
 		(at 49.53 161.798 0)
 		(fields_autoplaced yes)
@@ -9436,7 +9436,7 @@
 		)
 		(uuid "9998f226-ceaf-417e-83ec-994e02722623")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.0142 161.798 0)
+			(at 60.1352 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +10704,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13bf36e9-1220-42b2-a98d-8fb435c8d659")
@@ -11678,7 +11678,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8b599b40-bc84-4178-83ff-fbd8971fde3a")
 		(property "Reference" "R2"
@@ -11811,7 +11811,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93a44906-ea6c-4899-96fd-90931244fae6")
@@ -12506,7 +12506,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c55de2c3-0836-4869-ae88-c80e7cfcdeee")
 		(property "Reference" "R3"
