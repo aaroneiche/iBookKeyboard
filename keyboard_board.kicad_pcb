@@ -362,7 +362,6 @@
 		)
 	)
 	(footprint "Aaron:AMPHENOL_SFW6S-2STE1LF"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "0a7dab51-e180-432b-bef0-a13bb3ee2329")
 		(at 256.988439 84.909649 -90)
@@ -785,7 +784,6 @@
 		)
 	)
 	(footprint "Aaron:JST_S2B-PH-SM4-TB"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "1f370745-b2df-46aa-a699-37e976ff7e35")
 		(at 235.125424 100.422979 180)
@@ -1043,7 +1041,6 @@
 		)
 	)
 	(footprint "Aaron:CONN3_S3B-PH_JST"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "23d2c878-3e22-45bd-9bc2-3a2c51b047d2")
 		(at 201.136001 103.421843 180)
@@ -1074,7 +1071,7 @@
 			)
 		)
 		(property "Footprint" "Aaron:CONN3_S3B-PH_JST"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e42cf9ce-04b9-4345-9f37-86b197f49457")
@@ -1086,7 +1083,7 @@
 			)
 		)
 		(property "Datasheet" "S3B-PH-SM4-TB"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "742da9b7-e99c-49e1-b76d-f2a500059244")
@@ -1098,7 +1095,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "feff12f5-ec75-415c-ba2c-aa4bfb5fe509")
@@ -1361,7 +1358,6 @@
 		)
 	)
 	(footprint "Aaron:JST_S2B-PH-SM4-TB"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "2a3fdd5f-c79d-4afa-bcb6-bbf2708efe66")
 		(at 194.6 83.63)
@@ -1618,7 +1614,6 @@
 		)
 	)
 	(footprint "Aaron:2x20_1.27_DIP_F"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "300c19e2-ec60-4bb1-af1e-36b6476b1498")
 		(at 215.525 89.55 180)
@@ -2156,7 +2151,6 @@
 		)
 	)
 	(footprint "Aaron:JST_S2B-PH-SM4-TB"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "4bd90104-6d22-42ff-859b-6452e3881312")
 		(at 241.125 83.982)
@@ -2681,7 +2675,6 @@
 		)
 	)
 	(footprint "Aaron:D16-L"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "990b12a5-0e5a-45f7-ade8-e41c0aecded4")
 		(at 206.175 79.975 -90)
@@ -4020,7 +4013,6 @@
 		)
 	)
 	(footprint "Aaron:D16-L"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "c6978af9-722b-4293-8537-064e6d68e234")
 		(at 206.185 87.07745 -90)
@@ -5358,7 +5350,6 @@
 		)
 	)
 	(footprint "Aaron:JST_S2B-PH-SM4-TB"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "e3bc5042-6a4a-4997-8b06-89d091f0a6b9")
 		(at 245.500424 100.422979 180)
@@ -5616,7 +5607,6 @@
 		)
 	)
 	(footprint "Aaron:AMPHENOL_F52R-1A7H1-11026"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "b6a7ca54-6d06-4377-9759-68f91a987e2d")
 		(at 239.848 79.75)
@@ -6249,7 +6239,6 @@
 		)
 	)
 	(footprint "SC0915:MODULE_SC0915"
-		(locked yes)
 		(layer "B.Cu")
 		(uuid "e1cbde1c-d74d-4166-869f-7007027429e6")
 		(at 205.736 95.86 -90)
@@ -33096,6 +33085,7 @@
 		(start 210.047498 79.55)
 		(end 202.285062 79.55)
 		(width 0.2)
+		(locked yes)
 		(layer "B.Cu")
 		(net 47)
 		(uuid "16b26b10-9cd2-4716-9e52-a623f2448a8d")
