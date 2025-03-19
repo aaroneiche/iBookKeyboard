@@ -1,2 +1,5 @@
 keyboard_board-backups/*
 fp-info-cache
+gerbers/**
+**/_autosave*
+**/*-bak
