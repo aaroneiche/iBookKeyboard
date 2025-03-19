@@ -179,9 +179,11 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.3,
         0.35,
-        0.5
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -482,10 +484,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gebers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "keyboard_board1.step",
+      "step": "../../../../../../Desktop/keyboard_board5.step",
       "svg": "",
       "vrml": ""
     },
@@ -596,5 +598,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "VERSION": "1.0"
+  }
 }

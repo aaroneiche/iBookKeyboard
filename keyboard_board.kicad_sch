@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "4c4c8fa8-6ca5-4479-92f8-c3fc64339dee")
 	(paper "A4")
+	(title_block
+		(date "2025-03-18")
+		(rev "1.0")
+	)
 	(lib_symbols
 		(symbol "74xx:74HC165"
 			(exclude_from_sim no)
@@ -6119,7 +6123,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 184.912) (xy 60.706 184.912)
+			(xy 63.5 185.42) (xy 53.34 185.42)
 		)
 		(stroke
 			(width 0)
@@ -6579,7 +6583,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.706 187.452) (xy 60.706 188.468)
+			(xy 60.706 187.96) (xy 60.706 188.468)
 		)
 		(stroke
 			(width 0)
@@ -6999,7 +7003,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.706 184.912) (xy 60.706 184.15)
+			(xy 53.34 185.42) (xy 53.34 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7189,7 +7193,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.008 187.452) (xy 60.706 187.452)
+			(xy 63.5 187.96) (xy 60.706 187.96)
 		)
 		(stroke
 			(width 0)
@@ -7359,7 +7363,7 @@
 	)
 	(text "Power Input"
 		(exclude_from_sim no)
-		(at 71.374 178.308 0)
+		(at 74.93 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8753,6 +8757,28 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 63.5 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "999977ca-30de-4013-96d3-f62339530617")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.6162 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Meta 1 (Fn)"
 		(shape input)
 		(at 160.02 53.848 180)
@@ -9869,13 +9895,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Aaron:AMPHENOL_F52R-1A7H1-11026"
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-26S-0.5SH_1x26-1MP_P0.50mm_Horizontal"
 			(at 173.482 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -10190,87 +10215,6 @@
 			(project "keyboard_board"
 				(path "/4c4c8fa8-6ca5-4479-92f8-c3fc64339dee"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Aaron:S2B-PH-SM4-TB")
-		(at 69.088 186.182 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "307bdc35-6bca-4cc4-9de3-bfdd69bf2f9e")
-		(property "Reference" "P3"
-			(at 69.596 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S2B-PH-SM4-TB"
-			(at 58.293 181.102 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Aaron:JST_S2B-PH-SM4-TB"
-			(at 69.088 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.088 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power Input"
-			(at 69.088 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 69.088 186.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce9fc867-a54a-4dce-816f-45f90418f8d2")
-		)
-		(pin "2"
-			(uuid "4513fdf4-db8b-43a1-9aed-5dade7dcca9f")
-		)
-		(instances
-			(project "keyboard_board"
-				(path "/4c4c8fa8-6ca5-4479-92f8-c3fc64339dee"
-					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -10711,16 +10655,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 60.706 184.15 0)
+		(at 53.34 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55e3cb60-26d3-4305-a674-79ead0ce5aa5")
 		(property "Reference" "#PWR019"
-			(at 60.706 187.96 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +10672,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 60.706 179.07 0)
+			(at 49.53 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10737,7 +10680,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.706 184.15 0)
+			(at 53.34 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10746,7 +10689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.706 184.15 0)
+			(at 53.34 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10755,7 +10698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 60.706 184.15 0)
+			(at 53.34 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12252,7 +12195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Aaron:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 			(at 31.496 24.638 0)
 			(effects
 				(font
@@ -12436,6 +12379,80 @@
 			(project ""
 				(path "/4c4c8fa8-6ca5-4479-92f8-c3fc64339dee"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Aaron:S3B-PH-SM4-TB")
+		(at 63.5 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a1c894-6846-44c8-8323-5b06a2248a04")
+		(property "Reference" "J5"
+			(at 71.12 192.532 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S3B-PH-SM4-TB"
+			(at 65.532 194.818 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Aaron:CONN3_S3B-PH_JST"
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "S3B-PH-SM4-TB"
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e8dcc342-0e58-423e-bc3d-8e525e9dd5b3")
+		)
+		(pin "3"
+			(uuid "812aa8f3-789b-447e-8cd9-ab13fe5f5485")
+		)
+		(pin "1"
+			(uuid "50f2ba67-a726-499d-8c12-dcd1c3826fe0")
+		)
+		(instances
+			(project "keyboard_board"
+				(path "/4c4c8fa8-6ca5-4479-92f8-c3fc64339dee"
+					(reference "J5")
 					(unit 1)
 				)
 			)
