@@ -21,7 +21,7 @@
       "keepouts": true,
       "lockedItems": true,
       "otherItems": true,
-      "pads": true,
+      "pads": false,
       "text": true,
       "tracks": true,
       "vias": true,
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "bffffbf_ffffffff",
+    "visible_layers": "bfcffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
